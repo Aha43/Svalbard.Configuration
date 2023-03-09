@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{53CE89F0-6E12-4098-918C-41294F582BEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Svalbard.Configuration", "src\Svalbard.Configuration\Svalbard.Configuration.csproj", "{992BB3DE-1B4E-485D-89E1-2CDC106A74CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{992BB3DE-1B4E-485D-89E1-2CDC106A74CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992BB3DE-1B4E-485D-89E1-2CDC106A74CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992BB3DE-1B4E-485D-89E1-2CDC106A74CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992BB3DE-1B4E-485D-89E1-2CDC106A74CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{992BB3DE-1B4E-485D-89E1-2CDC106A74CB} = {53CE89F0-6E12-4098-918C-41294F582BEF}
 	EndGlobalSection
 EndGlobal
